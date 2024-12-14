@@ -1,0 +1,123 @@
+.flag{
+    background-color:azure;
+    text-align: center;
+    margin-left: 0%;
+}
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    /*background-color: red;*/
+}
+/*.logo{
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}*/
+.farming{
+    margin-left: 1400px;
+}
+.home{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:gold;
+    /*height: 10px;*/
+    font-style: oblique;
+    border-style: groove;
+
+}
+.dropbtn {
+    background-color: gold;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+  }
+  
+  .dropdown {
+    margin-left:10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: grey;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: white;}
+  .online:hover{
+    /* increase size by 10% */
+    transform: scale(1.1);
+    
+}
+.dropbtn:hover{
+  /* increase size by 10% */
+  transform: scale(1.1);
+  
+}
+.dropdown-content{
+  padding: 17px 0 10px 1opx;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  mask-image: linear-gradient(to top, transparent, black),
+  linear-gradient(to left, transparent 17px, black 17px);
+  mask-size: 100% 20000px;
+  mask-position: left bottom;
+  -webkit-mask-image: linear-gradient(to top, transparent, black),
+  linear-gradient(to left, transparent 17px, black 17px);
+  -webkit-mask-size: 100% 20000px;
+  -webkit-mask-positiona: left bottom;
+  transition :mask-position;  -webkit-mask-positiona :0.3s
+  }
+ .dropdown-content:hover {
+    -webkit-mask-positiona:left top 
+ }
+@keyframes background {
+  from {
+    background: pink;
+  }
+  to {
+    background: #c0d6ff;
+  }
+}
+
+.dropdown {
+  float: left;
+  animation: background 5s infinite alternate;
+}
+
+.detail{
+  background-color: black;
+  color: white;
+  margin-top: -1%;
+ 
+}
+.media{
+  background-color: black;
+  color: white;
+  margin-top: -12%;
+  margin-left: 1%;
+  text-align: center;
+}
+
